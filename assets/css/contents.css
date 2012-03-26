@@ -1,0 +1,543 @@
+/* CONTENT LIST PAGE*/
+.content_sidebar {
+    width:160px;    
+}
+
+#section_left .content_sidebar h2{
+    color:#c29245;
+    background:/*#e7e8e9*/#d2d2d3;
+    line-height:25px;
+    padding-left:10px;
+    margin-bottom:0;
+    font-size:12px;
+}
+
+.content_sidebar ul{
+}
+
+.content_sidebar li{
+    padding:5px 0 4px 5px;
+    border-bottom:1px solid #eaeaeb;
+    font-size:11px;
+}
+
+.content_sidebar li a{
+    color:#c29245;
+}
+
+.content_list li{
+    border-bottom:1px solid #b9babd;
+    margin-bottom:5px;
+    padding:10px 0;
+    overflow:hidden;/*TEST*/
+}
+
+.content_list li .member_content_with_thumbnail{
+    text-align:center;
+    width:130px;
+    overflow:hidden;
+    margin-right:10px;
+    text-align:center;
+}
+
+/*To display thumbnail in member area*/
+.content_list li div{
+    /*float:left;
+    width:440px;*/
+}
+/*To display thumbnail in member area*/
+
+.content_list li p.short_desc{
+	margin:5px 0;
+}
+
+.latest_entry{
+    border-bottom:1px solid #ccc;
+    padding-bottom:10px;
+    margin-bottom:0;
+}
+
+.content_list_thumb {
+    max-width:132px;
+    height:94px;
+    float:left;
+    margin-right:10px;
+}
+
+.content_list li .member_content_with_thumbnail .content_list_thumb{
+    float:none;
+    margin-right:0;
+    max-width:200px;
+}
+
+.blog_list_thumb{
+    width:60px;
+    height:70px;
+    float:left;
+    margin-right:10px;
+    padding:2px;
+    border:1px solid #aad;
+}
+
+.blog_list_thumb span{
+    display:block;
+    overflow:hidden;
+}
+
+.blog_list_thumb img{
+    width:auto;
+    height:70px;
+    /*padding:2px;
+    border:1px solid #aad;*/
+}
+
+.blog_list_title{
+    margin-left:72px;
+    position:relative;
+}
+
+.content_list_title{
+    margin-left:142px;
+    position:relative;
+}
+
+.review_list_title p, .review_list_title h2{
+    padding:0 10px;
+}
+
+.projects_list{
+    overflow:hidden;
+}
+
+.projects_list li{
+    float:left;
+    margin-bottom:25px;
+    /*width:195px;*/
+    width:180px;
+    margin:0 4px 20px;
+    height:170px;
+    text-align:center;
+}
+
+.projects_list li p{
+	text-align:center;
+    font-size:11px;
+}
+
+.projects_list_thumb{
+    width:180px;
+    height:113px;
+    overflow:hidden;
+    margin-bottom:5px;
+}
+
+.projects_list_thumb img{
+    max-width:180px;
+}
+
+
+.highlight_bar{
+    background:#e7e7e8;
+    line-height:25px;
+    height:25px;
+    padding:0 20px;
+    margin-bottom:5px;
+}
+
+.content_list_rating{
+    position:absolute !important;
+    right:5px;
+    top:5px;
+}
+
+.highlight_bar a{
+    color:#CA4B2C;
+}
+
+.content_list_title h2 {
+    margin-bottom:5px;
+}
+
+.content_list_title h2 a, .content_list_title p a{
+    color:#CA4B2C;
+}
+
+.content_list_title p{
+    color:#000;
+}
+
+/* CONTENT LIST PAGE */
+
+
+
+/* CONTENT DETAIL PAGE */
+.box-heading h1{
+    font-weight:normal;
+}
+
+.box-content{
+}
+
+#section_left .box-content img {
+    /*max-width:590px;*/
+}
+
+.stat_bar {
+    color:#c49346;
+    /*font-family:Gotham;*/
+    font-size:14px;
+    margin-bottom:10px;
+    font-weight:bold;
+}
+
+.stat_bar a{
+    color:#939598;
+    /*margin:0 5px 0 0;*/
+    margin:0 15px 0 0;
+    /*text-decoration:underline;*/
+}
+
+.stat_bar a.selected, .stat_bar a:hover{
+	color:#f05125;
+    text-decoration:none;
+}
+
+.content_container{
+    overflow:hidden;
+    /*border-bottom:1px solid #c8c9cb;*/
+    padding:10px 2px;
+}
+
+.user_box{
+    background:url(../images/user_box_bg.jpg) repeat-x #e7e7e8;
+    width:150px;
+    /*float:left;
+    margin-right:8px;*/
+    padding:5px;
+    margin-bottom:10px;
+}
+
+.user_box .user_image{
+    width:45px;
+    height:45px;
+    float:left;
+    overflow:hidden;
+    margin-right:5px;
+}
+
+.user_box .user_image img{
+    width:45px;
+    height:auto;
+}
+
+.user_box .user_info{
+    width:100px;
+    float:left;
+}
+
+#section_left .user_info h2{
+    color:#6d6e71;
+    font-size:13px;
+    line-height:20px;
+    font-weight:normal;
+    margin-bottom:5px;
+}
+
+.user_info p{
+	color:#77787b;
+    font-size:9px;
+    line-height:1;
+}
+
+.user_links {
+    color:#939598;
+    margin-top:3px;
+    text-align:center;
+    font-size:11px;
+    font-family:Gotham;
+}
+
+/*
+    CONTENT BOX STYLES
+    The main container for every content page
+*/
+
+.content_box{
+    /*width:570px;*/
+    width:640px;
+    float:right;
+}
+
+.content_info {
+    background:#e7e7e8;
+    padding:10px;
+    margin-bottom:5px;
+    position:relative;
+}
+
+.content_info a{
+    color:#ca4b2c;
+}
+
+.like_bar{
+    margin:5px 0;
+}
+
+.content_photos {
+    margin-bottom:10px;
+}
+
+.content_photos a{
+    display:inline-block;
+    margin-right:10px;
+}
+
+.content_photos img{
+    height:120px;
+}
+
+.content_text {
+    color:#231f20;
+    font-size:12px;
+    /*font-family:Gotham;*/
+    margin:10px 0;
+}
+
+.content_text img{
+    max-width:100%;
+}
+
+/*
+    END OF CONTENT BOX STYLES
+*/
+
+.comment_container{
+    border-top:1px solid #C8C9CB;
+}
+
+.comment_container h2{
+    color:#5690aa;
+    font-size:22px;
+    border-bottom:1px solid #c8c9cb;
+    line-height:35px;
+    margin-bottom:0;
+}
+
+.comment_container>p{
+    text-align:center;
+}
+
+.comment_item{
+    overflow:hidden;
+    border-bottom:1px solid #c8c9cb;
+}
+
+/*.comment_item */.time {
+    color:#888;
+    text-align:right;
+    font-size:11px;
+}
+
+.comment_text{
+    float:left;
+    /*width:600px;*/
+    width:630px;
+    padding:3px 9px 3px 8px;
+    border-left:1px solid #c8c9cb;
+    min-height:200px;
+    /*font-weight:bold;*/
+}
+
+.comment_text textarea{
+    width:100%;
+    margin-bottom:5px;
+}
+
+
+.signature{
+    color:#888;
+    font-size:11px;
+    margin:10px 0;
+}
+/* CONTENT PAGE */
+
+
+/* MESSAGES PAGE */
+.messages_box{
+    margin:10px 0;
+}
+
+.message_content label {
+    clear:left;
+}
+    
+.message_content p{
+    float:left;
+}
+
+.message_content p.hidden{
+    float:none;
+}
+
+
+.lists{
+    border-spacing:0;
+    border-color:#8C6521 #8C6521 #ccc;
+    border-style:solid solid none;
+    /*border-width:1px 1px medium;*/
+    margin-bottom:15px;
+}
+
+.lists thead{
+    /*background:#F5E8B7;
+    color:#444;*/
+    font-weight:bold;
+    line-height:2em;
+    font-size:16px;
+}
+
+.lists td, .lists th{
+    padding:5px 8px;
+	border-bottom:1px solid #BCAA91;
+    text-align:left;
+}
+
+.lists td.center, .lists th.center{
+	text-align:center;
+    vertical-align:middle;
+}
+
+.total{
+    font-size:18px;
+    color:#444;
+}
+
+.forum_lists{
+    margin-bottom:40px;
+    width:100%;
+}
+
+.forum_lists tbody tr{
+    -webkit-transition:0.3s all ease;
+    -moz-transition:0.3s all ease;
+    -o-transition:0.3s all ease;
+}
+
+.forum_lists tbody tr:hover{
+    background:#F5E8B7;
+}
+
+.forum_lists h2{
+    margin-bottom:5px;
+}
+
+.forum_lists tbody p{
+    line-height:1.8em;
+    color:#444;
+}
+
+.forum_lists td{
+	padding:7px 8px;
+}
+
+.forum_lists .blog_list_thumb{
+    width:50px;
+    height:50px;
+    padding:1px;
+}
+
+.forum_lists .blog_list_thumb span{
+    display:block;
+    overflow:hidden;
+    text-align:center;
+}
+
+.forum_lists .blog_list_thumb img{
+    width:auto;
+    height:50px;
+    /*padding:2px;
+    border:1px solid #aad;*/
+}
+
+.forum_lists .blog_list_title{
+	margin-left:60px;
+}
+
+.forum_lists li {
+    background:#F5E8b7;
+    border:1px solid #8C6521;
+    margin:10px 0;
+    padding:10px;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+    position:relative;
+    color:#444;
+}
+
+.forum_lists li .total_thread{
+    font-weight:bold;
+    position:absolute;
+    right:20px;
+    top:50%;
+    margin-top:-8px;
+    font-size:16px;
+}
+
+.strong {
+    font-weight:bold;
+}
+/* MESSAGES PAGE */
+
+/* ARTICLES PAGE */
+.article_list li{
+    font-size:16px;
+    font-weight:bold;
+}
+
+.article_list li small{
+    font-size:10px;
+    font-variant:small-caps;
+}
+
+/* SEARCH PAGE */
+.search_page_form{
+    margin-bottom:20px;
+}
+
+.search_result_box{
+    border:1px solid #cdcdcd;
+    background:#ededed;
+    padding:10px;
+    margin-bottom:15px;
+}
+
+.search_projects li {
+    width:176px;
+}
+
+.search_projects .projects_list_thumb img{
+    width:176px;
+}
+
+/*MESSAGES STYLE*/
+.show {
+    line-height:25px;
+    margin-bottom:8px;
+}
+
+
+/* MEMBER CONTENT FORM */
+.content_thumb{
+  vertical-align:middle;
+}
+
+.delete_image{
+  margin-left:10px;
+  font-size:13px;
+}
+
+.alert{
+  color:#fe3f3b;
+}
+/* END OF MEMBER CONTENT FORM */

@@ -1,0 +1,52 @@
+#entries_list {
+    overflow:hidden;
+}
+
+#entries_list li{
+    float:left;
+    width:280px;
+    overflow:hidden;
+    margin-bottom:10px;
+}
+
+#entries_list .entry_thumb{
+	float:left;
+    margin-right:10px;
+}
+
+.entry_thumb {
+    width:100px;
+    height:75px;
+    overflow:hidden;
+}
+
+.entry_thumb img {
+    width:100px;
+}
+
+#winners_list td{
+	vertical-align:middle;
+}
+
+#winners_list td.entry_thumb{
+	width:100px;
+}
+
+#winners_list td.vote{
+	text-align:center;
+}
+
+.vote_list li{
+    overflow:hidden;
+}
+
+.vote_list input[type="radio"] {
+    float:left;
+}
+
+.vote_list li {
+}
+
+.vote_list li p {
+    margin-bottom:0;
+}

@@ -1,0 +1,28 @@
+/* IE specific styles*/
+.oldie body{
+  font-size:75%; /* HENSON : makes 1em = 10px */
+}
+
+.no-borderradius .btn{
+    behavior:url('http://huntdrop.com/css/PIE.htc');
+    position:relative;
+    width:auto;  
+    display:inline;  
+}
+
+.no-borderradius .btn.subscribe-btn{
+    width:80px;
+}
+
+.no-rgba .random_big_image_caption{
+    background:url('../images/transparent.png') repeat;
+}
+
+.no-borderradius .type_label{
+    behavior:url('http://huntdrop.com/css/PIE.htc');
+    position:relative;
+}
+
+.no-borderradius #hunters_thumbs li p.avatar-name{
+    cursor:pointer;
+}

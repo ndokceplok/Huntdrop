@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Lemon);
+
+#main_section{
+  padding:30px 0;
+}
+
+h1,h2 {
+  font-family:"Lemon",Georgia;
+  font-weight:normal;
+  margin-bottom:30px;
+}
+
+h1{
+  font-size:100px;
+  color:#EF5026;
+}
+
+h2{
+  font-size:60px;
+  color:#55462F;
+}
+
+#main_section p{
+  font-size:20px;
+}

@@ -1,0 +1,51 @@
+/* NARROW VERSION */
+
+ul.tabs {
+	margin: 10px 0 0 0;
+	padding: 0;
+	list-style: none;
+    line-height:24px;
+	border-bottom: 1px solid #960;
+	border-top: 1px solid #aaa;
+	width: 100%;
+}
+ul.tabs li {
+	display: inline;
+	overflow: hidden;
+	position: relative;
+}
+ul.tabs li a {
+	color: #000;
+	font-size: 1em;
+	outline: none;
+    padding:7px 7px 6px 7px;
+}
+ul.tabs li a:hover {
+    text-decoration:none;
+    color:#960;
+}
+html ul.tabs li.active a, html ul.tabs li.active a:hover  { /*--Makes sure that the active tab does not listen to the hover properties--*/
+    color:#fff;
+    background:#960;
+}
+
+.tab_container {
+	overflow: hidden;
+	clear: both;
+	width: 100%;
+	background: #fff;
+    margin-bottom:10px;
+}
+.tab_content {
+	padding: 2px;
+	font-size: 1.2em;
+}
+
+.tab_content li{
+    text-align:left;
+    border-bottom:1px solid #960;
+}
+
+.tab_content li a{
+    color:#960;
+}

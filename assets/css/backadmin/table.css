@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+.lists{
+    border-spacing:0;
+    border-color:#8C6521 #8C6521 #ccc;
+    border-style:solid solid none;
+    /*border-width:1px 1px medium;*/
+    margin:1em 0;
+}
+
+.lists thead{
+    /*background:#F5E8B7;
+    color:#444;*/
+    font-weight:bold;
+    line-height:2em;
+    font-size:16px;
+}
+
+.lists td{
+    vertical-align:top;
+}
+
+.lists td, .lists th{
+    padding:5px 8px;
+	border-bottom:1px solid #8C6521;
+    text-align:left;
+}
+
+.lists td.center, .lists th.center{
+	text-align:center;
+}
+
+.forum_lists{
+    margin-bottom:40px;
+    width:100%;
+}
+
+.lists tbody tr{
+    -webkit-transition:0.3s all ease;
+    -moz-transition:0.3s all ease;
+    -o-transition:0.3s all ease;
+}
+
+.lists tbody tr:hover{
+    background:#F5E8B7;
+}
+
+.lists h2{
+    margin-bottom:5px;
+}
+
+.lists tbody p{
+    line-height:1.8em;
+    color:#444;
+}
+
+.lists td{
+    padding:7px 8px;
+}
+
+
+#winners_list td{
+    vertical-align: middle;
+}
+
+#winners_list td.entry_thumb{
+    width:140px;
+}
+
+#winners_list td.vote{
+    text-align:center;
+    font-size:21px;
+}
